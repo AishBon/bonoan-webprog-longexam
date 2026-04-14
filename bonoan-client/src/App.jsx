@@ -1,17 +1,20 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-// HomePage Structure
+// Layouts
 import Layout from './layouts/Layout';
-import ProductPage from './pages/LandingPages/ProductPage';
+import AuthLayout from './layouts/AuthLayout';
+
+// Landing Pages
 import HomePage from './pages/LandingPages/HomePage';
 import AboutPage from './pages/LandingPages/AboutPage';
 import ProductListPage from './pages/LandingPages/ProductListPage';
+import ProductPage from './pages/LandingPages/ProductPage';
 
-// Auth Pages Structure
-import AuthLayout from './layouts/AuthLayout';
+// Auth Pages
 import SignInPage from './pages/AuthPages/SignInPage';
 import SignUpPage from './pages/AuthPages/SignUpPage';
 
+// 404 Page
 import NotFoundPage from './pages/NotFoundPage';
 
 const routes = [
@@ -21,7 +24,7 @@ const routes = [
     errorElement: <NotFoundPage />,
     children: [
       {
-        path: '',
+        index: true,
         element: <HomePage />,
       },
       {
@@ -38,19 +41,21 @@ const routes = [
       },
     ],
   },
+
+  //AUTH ROUTES
   {
-    path: "auth/",
+    path: '/',
     element: <AuthLayout />,
     errorElement: <NotFoundPage />,
     children: [
       {
-        path: "signin",
+        path: 'signin',
         element: <SignInPage />,
       },
       {
-        path: "signup",
+        path: 'signup',
         element: <SignUpPage />,
-      }
+      },
     ],
   },
 ];
@@ -58,11 +63,7 @@ const routes = [
 const router = createBrowserRouter(routes);
 
 function App() {
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
