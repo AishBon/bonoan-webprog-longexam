@@ -2,7 +2,7 @@ import Button from '../../components/Button';
 
 const HomePage = () => {
     return (
-        <div className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]">
+        <div className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]" style={{ fontFamily: "'Josefin Sans', sans-serif" }}>
 
             {/* SOFT LIGHT */}
             <div className="pointer-events-none absolute top-[-200px] left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-[#6c8cff]/10 blur-[120px]" />
@@ -25,8 +25,8 @@ const HomePage = () => {
                             Freshly Baked Daily
                         </p>
 
-                        <h1 className="mt-3 text-4xl font-bold text-white drop-shadow-2xl">
-                            Blueberry Bakehouse
+                        <h1 className="mt-3 text-4xl font-bold text-white drop-shadow-2xl" style={{ fontFamily: "'Cinzel', serif" }}>
+                            Home Bakery
                         </h1>
 
                         <p className="mt-4 text-white/90">
@@ -47,7 +47,7 @@ const HomePage = () => {
                     <p className="text-xs uppercase tracking-[0.3em] text-[#6c8cff]">
                         Store Overview
                     </p>
-                    <h2 className="text-2xl font-semibold">
+                    <h2 className="text-2xl font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>
                         Quick shop insights
                     </h2>
                 </div>
@@ -55,28 +55,28 @@ const HomePage = () => {
                 <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
 
                     <div className="rounded-3xl bg-white p-6 shadow-lg hover:shadow-xl transition">
-                        <p className="text-3xl font-bold text-[#2d2d6b]">12</p>
+                        <p className="text-3xl font-bold text-[#2d2d6b]" style={{ fontFamily: "'Cinzel', serif" }}>12</p>
                         <p className="mt-2 text-xs uppercase tracking-[0.25em] text-gray-400">
                             Products
                         </p>
                     </div>
 
                     <div className="rounded-3xl bg-white p-6 shadow-lg hover:shadow-xl transition">
-                        <p className="text-3xl font-bold text-[#2d2d6b]">04</p>
+                        <p className="text-3xl font-bold text-[#2d2d6b]" style={{ fontFamily: "'Cinzel', serif" }}>04</p>
                         <p className="mt-2 text-xs uppercase tracking-[0.25em] text-gray-400">
                             Categories
                         </p>
                     </div>
 
                     <div className="rounded-3xl bg-white p-6 shadow-lg hover:shadow-xl transition">
-                        <p className="text-3xl font-bold text-[#2d2d6b]">12</p>
+                        <p className="text-3xl font-bold text-[#2d2d6b]" style={{ fontFamily: "'Cinzel', serif" }}>12</p>
                         <p className="mt-2 text-xs uppercase tracking-[0.25em] text-gray-400">
                             Orders
                         </p>
                     </div>
 
                     <div className="rounded-3xl bg-white p-6 shadow-lg hover:shadow-xl transition">
-                        <p className="text-3xl font-bold text-[#2d2d6b]">28</p>
+                        <p className="text-3xl font-bold text-[#2d2d6b]" style={{ fontFamily: "'Cinzel', serif" }}>28</p>
                         <p className="mt-2 text-xs uppercase tracking-[0.25em] text-gray-400">
                             Pickup Slots
                         </p>
@@ -92,7 +92,7 @@ const HomePage = () => {
                     <p className="text-xs uppercase tracking-[0.3em] text-[#6c8cff]">
                         Best Sellers
                     </p>
-                    <h2 className="text-2xl font-semibold">
+                    <h2 className="text-2xl font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>
                         Fresh from the oven
                     </h2>
                 </div>
@@ -110,7 +110,7 @@ const HomePage = () => {
                             />
                         </div>
 
-                        <h3 className="mt-4 text-lg font-semibold">
+                        <h3 className="mt-4 text-lg font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>
                             Strawberry Macarons
                         </h3>
 
@@ -137,7 +137,7 @@ const HomePage = () => {
                             />
                         </div>
 
-                        <h3 className="mt-4 text-lg font-semibold">
+                        <h3 className="mt-4 text-lg font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>
                             Soft Milk Bread
                         </h3>
 
@@ -145,7 +145,6 @@ const HomePage = () => {
                             Fluffy and lightly sweet.
                         </p>
 
-                        {/* BUTTON */}
                         <Button
                             className="mt-4 rounded-full bg-[#2d2d6b] px-4 py-2 text-sm font-semibold text-white shadow-md transition hover:bg-[#6c8cff] hover:shadow-lg hover:shadow-[#6c8cff]/30"
                             to="/products"
@@ -165,7 +164,7 @@ const HomePage = () => {
                             />
                         </div>
 
-                        <h3 className="mt-4 text-lg font-semibold">
+                        <h3 className="mt-4 text-lg font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>
                             Blueberry Cupcakes
                         </h3>
 
@@ -173,7 +172,6 @@ const HomePage = () => {
                             Light, moist, and bursting with flavor.
                         </p>
 
-                        {/* BUTTON */}
                         <Button
                             className="mt-4 rounded-full bg-[#2d2d6b] px-4 py-2 text-sm font-semibold text-white shadow-md transition hover:bg-[#6c8cff] hover:shadow-lg hover:shadow-[#6c8cff]/30"
                             to="/products"

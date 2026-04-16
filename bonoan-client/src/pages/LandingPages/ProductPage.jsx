@@ -8,12 +8,18 @@ function ProductPage() {
 
   if (!product) {
     return (
-      <div className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]">
+      <div
+        className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]"
+        style={{ fontFamily: "'Josefin Sans', sans-serif" }}
+      >
 
         <div className="pointer-events-none absolute top-[-200px] left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-[#6c8cff]/10 blur-[120px]" />
 
         <section className="mx-4 mt-6 rounded-[2.5rem] bg-white p-10 shadow-[0_30px_80px_rgba(0,0,0,0.15)] text-center">
-          <h1 className="text-3xl font-bold text-[#2d2d6b]">
+          <h1
+            className="text-3xl font-bold text-[#2d2d6b]"
+            style={{ fontFamily: "'Cinzel', serif" }}
+          >
             Product not found
           </h1>
 
@@ -31,7 +37,10 @@ function ProductPage() {
   }
 
   return (
-    <div className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]">
+    <div
+      className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]"
+      style={{ fontFamily: "'Josefin Sans', sans-serif" }}
+    >
 
       {/* SOFT BACKGROUND LIGHT */}
       <div className="pointer-events-none absolute top-[-200px] left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-[#6c8cff]/10 blur-[120px]" />
@@ -46,7 +55,6 @@ function ProductPage() {
 
             <div className="aspect-square w-full max-w-md overflow-hidden rounded-2xl border border-[#6c8cff]/10 bg-white shadow-md">
 
-              {/* PRODUCT IMAGE PLACE */}
               <img
                 src={product.image || "https://your-product-image.jpg"}
                 alt={product.title}
@@ -64,7 +72,10 @@ function ProductPage() {
               {product.category}
             </p>
 
-            <h1 className="mt-3 text-3xl sm:text-4xl font-bold text-[#2d2d6b]">
+            <h1
+              className="mt-3 text-3xl sm:text-4xl font-bold text-[#2d2d6b]"
+              style={{ fontFamily: "'Cinzel', serif" }}
+            >
               {product.title}
             </h1>
 
@@ -83,7 +94,6 @@ function ProductPage() {
               ))}
             </p>
 
-            {/* ACTIONS */}
             <div className="mt-8 flex flex-wrap gap-3">
 
               <Button variant="primary">

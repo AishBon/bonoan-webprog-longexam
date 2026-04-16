@@ -2,12 +2,14 @@ import Button from './Button';
 
 const ProductCard = ({ product, index }) => {
   return (
-    <article className="group rounded-3xl bg-white p-5 shadow-md hover:shadow-xl transition border border-[#6c8cff]/10">
+    <article
+      className="group rounded-3xl bg-white p-5 shadow-md hover:shadow-xl transition border border-[#6c8cff]/10"
+      style={{ fontFamily: "'Josefin Sans', sans-serif" }}
+    >
 
       {/* IMAGE FRAME */}
       <div className="aspect-square overflow-hidden rounded-2xl bg-[#f3f6ff] border border-[#6c8cff]/10">
 
-        {/* PRODUCT IMAGE GOES HERE */}
         <img
           src={product.image || "https://your-product-image.jpg"}
           alt={product.title}
@@ -22,7 +24,10 @@ const ProductCard = ({ product, index }) => {
       </p>
 
       {/* TITLE */}
-      <h3 className="mt-2 text-lg font-semibold text-[#2d2d6b]">
+      <h3
+        className="mt-2 text-lg font-semibold text-[#2d2d6b]"
+        style={{ fontFamily: "'Cinzel', serif" }}
+      >
         {product.title}
       </h3>
 

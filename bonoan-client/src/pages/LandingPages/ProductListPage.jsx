@@ -4,9 +4,12 @@ import products from '../../assets/product-content.js';
 
 const ProductListPage = () => {
   return (
-    <div className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]">
+    <div
+      className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]"
+      style={{ fontFamily: "'Josefin Sans', sans-serif" }}
+    >
 
-      {/* SOFT LIGHT GLOW (same theme as homepage) */}
+      {/* SOFT LIGHT GLOW */}
       <div className="pointer-events-none absolute top-[-200px] left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-[#6c8cff]/10 blur-[120px]" />
 
       {/* HERO SECTION */}
@@ -18,7 +21,10 @@ const ProductListPage = () => {
             Products
           </p>
 
-          <h1 className="mt-3 text-3xl sm:text-4xl font-bold text-[#2d2d6b] max-w-2xl">
+          <h1
+            className="mt-3 text-3xl sm:text-4xl font-bold text-[#2d2d6b] max-w-2xl"
+            style={{ fontFamily: "'Cinzel', serif" }}
+          >
             Fresh bakery items made for your daily cravings
           </h1>
 
@@ -44,7 +50,10 @@ const ProductListPage = () => {
             Featured Products
           </p>
 
-          <h2 className="text-2xl font-semibold text-[#2d2d6b]">
+          <h2
+            className="text-2xl font-semibold text-[#2d2d6b]"
+            style={{ fontFamily: "'Cinzel', serif" }}
+          >
             Bakery selection
           </h2>
         </div>

@@ -2,7 +2,10 @@ import { Outlet } from 'react-router-dom';
 
 const AuthLayout = () => {
   return (
-    <section className="min-h-screen bg-[#fdf8f6] text-[#2d2d6b]">
+    <section
+      className="min-h-screen bg-[#fdf8f6] text-[#2d2d6b]"
+      style={{ fontFamily: "'Josefin Sans', sans-serif" }}
+    >
 
       <div className="grid min-h-screen w-full lg:grid-cols-[1.2fr_0.8fr]">
 
@@ -32,8 +35,11 @@ const AuthLayout = () => {
               className="h-12 w-12 rounded-full border border-white/30 bg-white object-cover"
             />
 
-            <h2 className="mt-3 text-lg font-bold">
-              Blueberry Bakehouse
+            <h2
+              className="mt-3 text-lg font-bold"
+              style={{ fontFamily: "'Cinzel', serif" }}
+            >
+              Home Bakery
             </h2>
 
             <p className="mt-2 text-sm text-white/80 leading-6">

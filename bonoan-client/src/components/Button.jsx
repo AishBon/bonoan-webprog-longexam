@@ -20,16 +20,18 @@ const Button = ({
     .join(' ')
     .trim();
 
+  const style = { fontFamily: "'Cinzel', serif" };
+
   if (to) {
     return (
-      <Link to={to} className={classes}>
+      <Link to={to} className={classes} style={style}>
         {children}
       </Link>
     );
   }
 
   return (
-    <button type={type} className={classes}>
+    <button type={type} className={classes} style={style}>
       {children}
     </button>
   );

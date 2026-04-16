@@ -2,7 +2,10 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="border-t border-[#e6e9ff] bg-[#2d2d6b] text-white">
+    <footer
+      className="border-t border-[#e6e9ff] bg-[#2d2d6b] text-white"
+      style={{ fontFamily: "'Josefin Sans', sans-serif" }}
+    >
 
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
 
@@ -10,8 +13,11 @@ const Footer = () => {
 
           {/* BRAND */}
           <div>
-            <p className="text-lg font-bold tracking-wide">
-              Blueberry Bakehouse
+            <p
+              className="text-lg font-bold tracking-wide"
+              style={{ fontFamily: "'Cinzel', serif" }}
+            >
+              Home Bakery
             </p>
             <p className="mt-2 text-sm text-white/70 leading-6">
               Freshly baked pastries, breads, and desserts crafted daily with love.
@@ -20,7 +26,10 @@ const Footer = () => {
 
           {/* PAGES DIRECTORY */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#6c8cff]">
+            <p
+              className="text-xs font-semibold uppercase tracking-[0.3em] text-[#6c8cff]"
+              style={{ fontFamily: "'Cinzel', serif" }}
+            >
               Pages
             </p>
 
@@ -61,7 +70,10 @@ const Footer = () => {
 
           {/* QUICK INFO */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#6c8cff]">
+            <p
+              className="text-xs font-semibold uppercase tracking-[0.3em] text-[#6c8cff]"
+              style={{ fontFamily: "'Cinzel', serif" }}
+            >
               Store Info
             </p>
 
@@ -78,7 +90,7 @@ const Footer = () => {
         <div className="mt-10 border-t border-white/10 pt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
 
           <p className="text-xs text-white/60">
-            © {new Date().getFullYear()} Blueberry Bakehouse. All rights reserved.
+            © {new Date().getFullYear()} Home Bakery. All rights reserved.
           </p>
 
           <p className="text-[11px] uppercase tracking-[0.3em] text-white/50">

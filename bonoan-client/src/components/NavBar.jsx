@@ -8,7 +8,7 @@ const links = [
 
 const navLinkClassName = ({ isActive }) =>
   [
-    'rounded-full border-2 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.24em] transition',
+    "rounded-full border-2 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.24em] transition",
 
     isActive
       ? 'border-[#a5b4fc] bg-white/10 text-white'
@@ -17,7 +17,7 @@ const navLinkClassName = ({ isActive }) =>
 
 const NavBar = () => {
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#2d2d6b]/95 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#2d2d6b]/95 backdrop-blur-md" style={{ fontFamily: "'Cinzel', serif" }}>
 
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
 
@@ -31,7 +31,7 @@ const NavBar = () => {
           />
 
           <div className="space-y-0.5">
-            <p className="text-xl font-bold text-white">
+            <p className="text-xl font-bold text-white" style={{ fontFamily: "'Cinzel', serif" }}>
               Home Bakery
             </p>
           </div>

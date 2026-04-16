@@ -9,10 +9,16 @@ const actionButtonClassName =
 
 const SignUpPage = () => {
   return (
-    <div className="w-full max-w-md mx-auto">
+    <div
+      className="w-full max-w-md mx-auto"
+      style={{ fontFamily: "'Josefin Sans', sans-serif" }}
+    >
 
       {/* HEADER */}
-      <h1 className="text-3xl font-bold tracking-tight text-[#2d2d6b] sm:text-4xl">
+      <h1
+        className="text-3xl font-bold tracking-tight text-[#2d2d6b] sm:text-4xl"
+        style={{ fontFamily: "'Cinzel', serif" }}
+      >
         Sign Up
       </h1>
 

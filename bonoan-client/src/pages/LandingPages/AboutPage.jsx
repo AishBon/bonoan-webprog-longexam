@@ -25,7 +25,7 @@ const categories = [
 
 const AboutPage = () => {
   return (
-    <div className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]">
+    <div className="relative flex w-full flex-col gap-16 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]" style={{ fontFamily: "'Josefin Sans', sans-serif" }}>
 
       {/* BACKGROUND GLOW */}
       <div className="pointer-events-none absolute top-[-200px] left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-[#6c8cff]/10 blur-[120px]" />
@@ -75,12 +75,12 @@ const AboutPage = () => {
               About Store
             </p>
 
-            <h1 className="mt-3 text-3xl sm:text-4xl font-bold text-[#2d2d6b]">
+            <h1 className="mt-3 text-3xl sm:text-4xl font-bold text-[#2d2d6b]" style={{ fontFamily: "'Cinzel', serif" }}>
               A bakery store built for simple, fast, and delicious ordering.
             </h1>
 
             <p className="mt-4 text-sm sm:text-base text-gray-600 leading-7">
-              Blueberry Bakehouse is designed to bring a clean, modern shopping experience
+              Home Bakery is designed to bring a clean, modern shopping experience
               for freshly baked goods — from pastries to breads — with smooth browsing and quick ordering.
             </p>
 
@@ -101,7 +101,7 @@ const AboutPage = () => {
           <p className="text-xs uppercase tracking-[0.3em] text-[#6c8cff]">
             Store Overview
           </p>
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-2xl font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>
             Quick store blocks
           </h2>
         </div>
@@ -109,22 +109,22 @@ const AboutPage = () => {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
 
           <div className="rounded-3xl bg-white p-6 shadow-md hover:shadow-xl transition border border-[#6c8cff]/10">
-            <p className="text-3xl font-bold">12</p>
+            <p className="text-3xl font-bold" style={{ fontFamily: "'Cinzel', serif" }}>12</p>
             <p className="mt-2 text-xs uppercase tracking-[0.25em] text-gray-400">Items</p>
           </div>
 
           <div className="rounded-3xl bg-white p-6 shadow-md hover:shadow-xl transition border border-[#6c8cff]/10">
-            <p className="text-3xl font-bold">4</p>
+            <p className="text-3xl font-bold" style={{ fontFamily: "'Cinzel', serif" }}>4</p>
             <p className="mt-2 text-xs uppercase tracking-[0.25em] text-gray-400">Categories</p>
           </div>
 
           <div className="rounded-3xl bg-white p-6 shadow-md hover:shadow-xl transition border border-[#6c8cff]/10">
-            <p className="text-3xl font-bold">12</p>
+            <p className="text-3xl font-bold" style={{ fontFamily: "'Cinzel', serif" }}>12</p>
             <p className="mt-2 text-xs uppercase tracking-[0.25em] text-gray-400">Pickup Slots</p>
           </div>
 
           <div className="rounded-3xl bg-white p-6 shadow-md hover:shadow-xl transition border border-[#6c8cff]/10">
-            <p className="text-3xl font-bold">28</p>
+            <p className="text-3xl font-bold" style={{ fontFamily: "'Cinzel', serif" }}>28</p>
             <p className="mt-2 text-xs uppercase tracking-[0.25em] text-gray-400">Orders</p>
           </div>
 
@@ -138,7 +138,7 @@ const AboutPage = () => {
           <p className="text-xs uppercase tracking-[0.3em] text-[#6c8cff]">
             Store Flow
           </p>
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-2xl font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>
             How ordering works
           </h2>
         </div>
@@ -148,21 +148,21 @@ const AboutPage = () => {
           <div className="space-y-4">
 
             <div className="rounded-3xl bg-white p-6 shadow-md border border-[#6c8cff]/10">
-              <h3 className="text-lg font-semibold">Curated Catalog</h3>
+              <h3 className="text-lg font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>Curated Catalog</h3>
               <p className="mt-2 text-sm text-gray-600">
                 Products are grouped for faster browsing and easier selection.
               </p>
             </div>
 
             <div className="rounded-3xl bg-white p-6 shadow-md border border-[#6c8cff]/10">
-              <h3 className="text-lg font-semibold">Simple Checkout</h3>
+              <h3 className="text-lg font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>Simple Checkout</h3>
               <p className="mt-2 text-sm text-gray-600">
                 Clean product pages with clear pricing and actions.
               </p>
             </div>
 
             <div className="rounded-3xl bg-white p-6 shadow-md border border-[#6c8cff]/10">
-              <h3 className="text-lg font-semibold">Fast Pickup</h3>
+              <h3 className="text-lg font-semibold" style={{ fontFamily: "'Cinzel', serif" }}>Fast Pickup</h3>
               <p className="mt-2 text-sm text-gray-600">
                 Orders are prepared and ready for quick student pickup.
               </p>
