@@ -45,7 +45,7 @@ function ProductPage() {
       {/* SOFT BACKGROUND LIGHT */}
       <div className="pointer-events-none absolute top-[-200px] left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-[#6c8cff]/10 blur-[120px]" />
 
-      {/* 🍰 PRODUCT HERO */}
+      {/* PRODUCT HERO */}
       <section className="relative mx-4 mt-6 overflow-hidden rounded-[2.5rem] bg-white shadow-[0_30px_80px_rgba(0,0,0,0.15)]">
 
         <div className="grid gap-10 lg:grid-cols-2 p-8 sm:p-10">
