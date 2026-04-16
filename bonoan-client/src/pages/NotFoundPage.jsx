@@ -2,7 +2,10 @@ import Button from '../components/Button';
 
 const NotFoundPage = () => {
   return (
-    <div className="relative flex w-full flex-col gap-12 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]">
+    <div
+      className="relative flex w-full flex-col gap-12 overflow-hidden bg-[#fdf8f6] text-[#2d2d6b]"
+      style={{ fontFamily: "'Josefin Sans', sans-serif" }}
+    >
 
       {/* SOFT BLUEBERRY LIGHT*/}
       <div className="pointer-events-none absolute top-[-200px] left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-[#6c8cff]/10 blur-[120px]" />
@@ -19,7 +22,10 @@ const NotFoundPage = () => {
             Error
           </p>
 
-          <h1 className="mt-3 text-6xl font-bold leading-tight sm:text-7xl text-[#2d2d6b]">
+          <h1
+            className="mt-3 text-6xl font-bold leading-tight sm:text-7xl text-[#2d2d6b]"
+            style={{ fontFamily: "'Cinzel', serif" }}
+          >
             404
           </h1>
 
@@ -43,7 +49,10 @@ const NotFoundPage = () => {
             Quick Links
           </p>
 
-          <h2 className="mt-2 text-2xl font-semibold text-[#2d2d6b]">
+          <h2
+            className="mt-2 text-2xl font-semibold text-[#2d2d6b]"
+            style={{ fontFamily: "'Cinzel', serif" }}
+          >
             Explore the site
           </h2>
 
@@ -51,7 +60,12 @@ const NotFoundPage = () => {
 
             {/* HOME CARD */}
             <div className="rounded-3xl bg-white p-5 shadow-md border border-[#e6e9ff]">
-              <h3 className="font-semibold text-[#2d2d6b]">Home</h3>
+              <h3
+                className="font-semibold text-[#2d2d6b]"
+                style={{ fontFamily: "'Cinzel', serif" }}
+              >
+                Home
+              </h3>
               <p className="mt-1 text-sm text-[#4b4f7a]">
                 Return to the homepage
               </p>
@@ -60,7 +74,12 @@ const NotFoundPage = () => {
 
             {/* PRODUCTS CARD */}
             <div className="rounded-3xl bg-white p-5 shadow-md border border-[#e6e9ff]">
-              <h3 className="font-semibold text-[#2d2d6b]">Products</h3>
+              <h3
+                className="font-semibold text-[#2d2d6b]"
+                style={{ fontFamily: "'Cinzel', serif" }}
+              >
+                Products
+              </h3>
               <p className="mt-1 text-sm text-[#4b4f7a]">
                 Browse all bakery items and categories
               </p>
